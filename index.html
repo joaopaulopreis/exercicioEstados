@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estados do Sul</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+    <div><h1>Estados do Sul</h1></div>
+    <div>
+        Estados:
+        <select id="comboEstados" onchange="mostrarFoto(value)">
+            <option value=""></option>
+            <option value="pr">Paraná</option>
+            <option value="sc">Santa Catarina</option>
+            <option value="rs">Rio grande do Sul</option>
+        </select>
+    </div>
+    <div id="descricao"></div>
+    <div id="imagem"></div>
+
+    <script src="estados.js"></script>
+</body>
+</html>
